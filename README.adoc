@@ -14,5 +14,5 @@ generator = CoverImageGenerator(
     color_fg='#fff'
 )
 image = generator.generate()
-image.save(f'cover.png')
+image.save('cover.png')
 ----
