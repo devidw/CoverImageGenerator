@@ -1,0 +1,18 @@
+= Cover Image Generator
+
+== Usage
+
+[source, python]
+----
+from CoverImageGenerator import CoverImageGenerator
+
+generator = CoverImageGenerator(
+    emoji='🐍',
+    width=1200,
+    height=600,
+    color_bg='#000',
+    color_fg='#fff'
+)
+image = generator.generate()
+image.save(f'cover.png')
+----

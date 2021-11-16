@@ -1,2 +1,0 @@
-# CoverImageGenerator
- Generate Cover Image
